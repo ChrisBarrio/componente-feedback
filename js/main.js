@@ -23,7 +23,7 @@ const stars = document.querySelectorAll('.star')
 
         if (star.getAttribute('id') !== 'star5') {
           commentBox.classList.remove('hidden')
-          commentBox.classList.add('visible')
+          commentBox.classList.add('visible') // agrego comment box cuando la calificacion es menor a 5 estrellas.
         }
       })
     })
